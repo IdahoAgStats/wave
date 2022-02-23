@@ -1,0 +1,11 @@
+
+# R commands:
+
+# if in the root directory:
+# use this to build the site (only needs to be run once)
+blogdown::new_site(install_hugo = FALSE, netlify = FALSE,
+                   theme = "schmanat/hugo-highlights-theme")
+                   
+blogdown::build_site()
+
+blog::serve_site()
