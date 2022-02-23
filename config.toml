@@ -1,5 +1,5 @@
 # Site settings
-baseurl = ""
+baseurl = "https://IdahoAgStats.github.io/wave"
 languageCode = "en-us"
 title = "WAVE"
 theme = "hugo-highlights-theme"
