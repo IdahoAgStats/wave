@@ -65,62 +65,49 @@ googleAnalytics = ""
     # the picture is stored at static/images/
     picture = "pic02.jpg"
 
-    [[params.block.item]]
-      icontype = "fas"
-      icon = "fa-seedling"
-      title = "current trials"
+#    [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-seedling"
+#      title = "current trials"
 
-    [[params.block.item]]
-      icontype = "fas"
-      icon = "fa-list"
-      title = "historic data"
+#   [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-list"
+#      title = "historic data"
 
-    [[params.block.item]]
-      icontype = "fas"
-      icon = "fa-database"
-      title = "database access"
+#    [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-database"
+#      title = "example database"
+#      link = ""
 
     [[params.block.item]]
       icontype = "fas"
       icon = "fa-chart-bar"
-      title = "visuals"
+      title = "demonstration app"
+      link = "https://vartestdb.nkn.uidaho.edu/shiny/idaho_vartest_shiny_app/"
 
   # participants section
   [[params.block]]
     id = "people"
     type = "list"
     title = "Project Participants"
-    description = "Project participants are: Juliet Marshall, Kurt Schroeder, Olga Walsh and James Davis of the University of Idaho; Clark Neely, Steve Jones and Steve Van Vleet of Washington State University; Ryan Graebner of Oregon State University; and Camille Steber, Kim Garland Campbell and Xiaming Chen of the USDA-ARS."
+    description = "**Data contributers:**  Jim Davis, Juliet Marshall, Kurtis Schroeder, and Olga Walsh of the University of Idaho; Steve Jone, Clark Neely, and Steve Van Vleet of Washington State University; Ryan Graebner of Oregon State University; and Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  Jennifer Hinds \n\n **Project Director:**  Julia Piaskowski"
     # the picture is stored at static/images/
     picture = "pic03.jpg"
     
-    [[params.block.item]]
-      icontype = "fas"
-      icon = "fa-school"
-      title = "UI"
-
-    [[params.block.item]]
-      icontype = "fas"
-      icon = "fa-school"
-      title = "WSU"
-
-    [[params.block.item]]
-      icontype = "fas"
-      icon = "fa-school"
-      title = "OSU"
-      link = "https://oregonstate.edu/"
+#    [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-school"
+#      title = "OSU"
+#      link = "https://oregonstate.edu/"
       
-    [[params.block.item]]
-      icontype = "fas"
-      icon = "fa-vial"
-      title = "USDA-ARS"
-    
   # funding section
   [[params.block]]
     id = "infos"
     type = "text"
     title = "One more thing"
-    description = "This work is funded by the [Idaho Wheat Commission](https://www.idahowheat.org/) and the National Institute for Food & Agriculture."
+    description = "This work is funded by the [Idaho Wheat Commission](https://www.idahowheat.org/) and the National Institute for Food & Agriculture ([project 2021-67021-34255](https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=R=92249&format=WEBFMT6NT)). \n\n If you are interested in contributing your data or want to know more about this endeavor, please contact [Julia Piaskowski](mailto:jpiaskowski@uidaho.edu)"
     # the picture is stored at static/images/
     picture = "pic04.jpg"
 
@@ -135,12 +122,12 @@ googleAnalytics = ""
 #    picture = "pic04.jpg"
 
   # contact form
-  [[params.block]]
-    id = "contact"
-    type = "text"
-    title = "Get in Touch"
-    picture = "pic05.jpg"
-    description = "If you are interested in contributing your data or want to know more about this endeavor, please contact [Julia Piaskowski](mailto:jpiaskowski@uidaho.edu)"
+#  [[params.block]]
+#    id = "contact"
+#    type = "contact"
+#    title = "Get in Touch"
+#    picture = "pic05.jpg"
+#    description = ""
 
 #    [params.block.form]
 #      name = "Name"
