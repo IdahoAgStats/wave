@@ -84,7 +84,7 @@ googleAnalytics = ""
     [[params.block.item]]
       icontype = "fas"
       icon = "fa-chart-bar"
-      title = "demonstration app"
+      title = "wheat demo app"
       link = "https://vartestdb.nkn.uidaho.edu/shiny/idaho_vartest_shiny_app/"
 
   # participants section

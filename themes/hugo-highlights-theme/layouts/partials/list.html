@@ -14,8 +14,8 @@
             <ul class="icons-grid">
                 {{ range .block.item }}
                 <li>
-                     <a href="{{ .link }}" class="icon major {{ .icontype }} {{ .icon }}">  <!-- I removed <span> text in previous line that controlled color of icon (I think) -->
-                    <h3>{{ .title }}</h3> </a>
+<!-- I removed <span> text from the next line that controlled color of icon and text font-->
+                     <a href="{{ .link }}" class="icon major {{ .icontype }} {{ .icon }}"> <h3>{{ .title }}</h3> </span> </a>
                 </li>
                 {{ end }}
             </ul>
