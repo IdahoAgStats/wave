@@ -1362,6 +1362,7 @@
 
 		a:hover {
 			border-bottom-color: transparent !important;
+			font-weight: bold ;
 			color: /*#8cd1a8*/ #3daf6b !important;
 			text-decoration: none;
 		}
@@ -2775,7 +2776,7 @@
 				}
 
 			#footer footer .copyright {
-				font-size: 0.8em;
+				font-size: 1em;
 				line-height: 1em;
 				padding: 0;
 			}

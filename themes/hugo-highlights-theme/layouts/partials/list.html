@@ -11,14 +11,14 @@
                 <h2>{{ with .block.title}}{{ . | markdownify }}{{ end }}</h2>
             </header>
             <p>{{ with .block.description}}{{ . | markdownify }}{{ end }}</p>
-            <ul class="icons-grid">
+           <!-- <ul class="icons-grid">
                 {{ range .block.item }}
-                <li>
-<!-- I removed <span> text from the next line that controlled color of icon and text font-->
+                <li> -->
+<!-- Julia: I removed <span> text from the next line that controlled color of icon and text fontn and the icon-grid class which did no good when we only have one item-->
                      <a href="{{ .link }}" class="icon major {{ .icontype }} {{ .icon }}"> <h3>{{ .title }}</h3> </span> </a>
-                </li>
+            <!--    </li>
                 {{ end }}
-            </ul>
+            </ul> -->
         </div>
         {{ if .next }}
         <a href="#{{.next.id}}" class="goto-next scrolly"
