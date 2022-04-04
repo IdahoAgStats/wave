@@ -92,7 +92,7 @@ googleAnalytics = ""
     id = "people"
     type = "list"
     title = "Project Participants"
-    description = "**Data contributers:**  Jim Davis, Juliet M. Marshall, Kurtis Schroeder, and Olga Walsh of the University of Idaho; Steve Jones, Clark Neely, and Steve Van Vleet of Washington State University; Ryan Graebner of Oregon State University; Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  Jennifer Hinds \n\n **Project Director:**  Julia Piaskowski"
+    description = "**Data contributers:**  Jim Davis, Juliet M. Marshall, Kurtis Schroeder, and Olga Walsh of the University of Idaho; Steve Jones,[ Clark Neely](https://css.wsu.edu/people/faculty/clark-neely/), and Steve Van Vleet of Washington State University; Ryan Graebner of Oregon State University; Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  Jennifer Hinds \n\n **Project Director:**  Julia Piaskowski"
     # the picture is stored at static/images/
     picture = "pic03.jpg"
     
