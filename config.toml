@@ -60,7 +60,7 @@ googleAnalytics = ""
     id = "outputs"
     type = "list"
     title = "Our Goals"
-    description = "We aim to provide an online database open to all members of the public to explore current and historical variety testing data sets including filtering, querying, and downalod. Analytical summaris of trials will be in industry-focused apps for each crop. View our current demo for wheat (in beta stage) [here](https://vartestdb.nkn.uidaho.edu/shiny/idaho_vartest_shiny_app/)"
+    description = "We aim to provide an online database open to all members of the public to explore current and historical variety testing data sets with the ability to filter, query, and download data. Analytical summaris of trials will be in industry-focused apps for each crop. View our current demo for wheat (in beta stage) [here](https://jpiaskowski.shinyapps.io/idaho_vartest_shiny_app/)"
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic02.jpg"
@@ -85,14 +85,14 @@ googleAnalytics = ""
       icontype = "fas"
       icon = "fa-chart-bar"
       title = "wheat demo app"
-      link = "https://vartestdb.nkn.uidaho.edu/shiny/idaho_vartest_shiny_app/"
+      link = "https://jpiaskowski.shinyapps.io/idaho_vartest_shiny_app/"
 
   # participants section
   [[params.block]]
     id = "people"
     type = "list"
     title = "Project Participants"
-    description = "**Data contributers:**  Jim Davis, Juliet Marshall, Kurtis Schroeder, and Olga Walsh of the University of Idaho; Steve Jones, Clark Neely, and Steve Van Vleet of Washington State University; Ryan Graebner of Oregon State University; Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  Jennifer Hinds \n\n **Project Director:**  Julia Piaskowski"
+    description = "**Data contributers:**  Jim Davis, Juliet M. Marshall, Kurtis Schroeder, and Olga Walsh of the University of Idaho; Steve Jones, Clark Neely, and Steve Van Vleet of Washington State University; Ryan Graebner of Oregon State University; Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  Jennifer Hinds \n\n **Project Director:**  Julia Piaskowski"
     # the picture is stored at static/images/
     picture = "pic03.jpg"
     
