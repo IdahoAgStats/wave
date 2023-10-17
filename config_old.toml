@@ -1,0 +1,182 @@
+# Site settings
+
+baseurl = "https://idahoagstats.github.io/wave/"
+languageCode = "en-us"
+title = "WAVE"
+theme = "hugo-highlights-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Western Agriculture Variety Explorer"
+  description = "A hub for exploring variety testing data for crops important to the Pacific Northwest, including wheat, barley, canola, lentils, dry peas, and chickpeas."
+
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email to yourself to confirm your account
+  # - click the confirmation link in the email from www.formspree.io
+  # - That's all. Enjoy mailing!
+  email = "jpiaskowski@uidaho.edu"
+
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = true
+
+  # hero Section
+  [params.hero]
+    type = "hero"
+    title = "WAVE"
+    description = "Western Agricultural Variety Explorer"
+    buttontext = "learn more"
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "text"
+    title = "About the Project"
+    description = "WAVE is a datahub for exploring variety testing data for crops important to the Pacific Northwest. Currently, this includes wheat, barley, canola, lentils, dry peas, and chickpeas. This is a multi-state effort to make current and historic variety testing data available to producers, researchers, agriculture professionals and anyone else interested in these data sets. The data will be available in searchable database with an accompanying API and crop-specific apps for trial exploration and visualization."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # skill section
+  [[params.block]]
+    id = "outputs"
+    type = "list"
+    title = "Our Goals"
+    description = "We aim to provide an online database open to all members of the public to explore current and historical variety testing data sets with the ability to filter, query, and download data. Analytical summaris of trials will be in industry-focused apps for each crop. View our current demo for wheat (in beta stage) [here](https://jpiaskowski.shinyapps.io/idaho_vartest_shiny_app/)"
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+#    [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-seedling"
+#      title = "current trials"
+
+#   [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-list"
+#      title = "historic data"
+
+#    [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-database"
+#      title = "example database"
+#      link = ""
+
+    [[params.block.item]]
+      icontype = "fas"
+      icon = "fa-chart-bar"
+      title = "wheat demo app"
+      link = "https://jpiaskowski.shinyapps.io/idaho_vartest_shiny_app/"
+
+  # participants section
+  [[params.block]]
+    id = "people"
+    type = "list"
+    title = "Project Participants"
+    description = "**Data contributers:**  [Jim Davis](https://www.uidaho.edu/cals/plant-sciences/our-people/jim-davis), [Juliet M. Marshall](https://www.uidaho.edu/cals/plant-sciences/our-people/juliet-marshall), [Kurtis Schroeder](https://www.uidaho.edu/cals/plant-sciences/our-people/kurtis-schroeder), [Doug Finkelnburg](https://www.uidaho.edu/extension/county/nez-perce/agriculture) and [Olga Walsh](https://www.uidaho.edu/cals/plant-sciences/our-people/olga-walsh) of the University of Idaho; [Steve Jones](https://breadlab.wsu.edu/),[Clark Neely](https://css.wsu.edu/people/faculty/clark-neely/), and [Steve Van Vleet](https://extension.wsu.edu/whitman/agriculture/) of Washington State University; [Ryan Graebner](https://cropandsoil.oregonstate.edu/users/ryan-graebner) of Oregon State University; Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  [Jennifer Hinds](https://hpc.uidaho.edu/general/Staff/) \n\n **Project Director:**  [Julia Piaskowski](https://www.uidaho.edu/cals/statistical-programs/people/julia-piaskowski)"
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+    
+#    [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-school"
+#      title = "OSU"
+#      link = "https://oregonstate.edu/"
+      
+  # funding section
+  [[params.block]]
+    id = "infos"
+    type = "text"
+    title = "One more thing"
+    description = "This work is funded by the [Idaho Wheat Commission](https://www.idahowheat.org/) and the National Institute for Food & Agriculture ([project 2021-67021-34255](https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=R=92249&format=WEBFMT6NT)). \n\n If you are interested in contributing your data or want to know more about this endeavor, please contact [Julia Piaskowski](mailto:jpiaskowski@uidaho.edu)"
+    # the picture is stored at static/images/
+    picture = "pic04.jpg"
+
+#  # custom section
+#  [[params.block]]
+#    id = "important"
+#    # to make custom section copy <theme>/layouts/partials/text.html to /layouts/partials/custom.html and edit it according to your needs.
+#    type = "custom"
+#    title = "Don't forget"
+#    description = "Curabitur massa ante, semper at massa et, semper pellentesque velit. Duis tempor est nisi, a gravida risus malesuada eget. Nunc rutrum arcu laoreet mauris sodales vehicula. Nunc iaculis felis ac dui egestas, vel ullamcorper tellus bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia sem porttitor, fringilla metus at, convallis quam. Integer convallis a justo non pellentesque."
+#    # the picture is stored at static/images/
+#    picture = "pic04.jpg"
+
+  # contact form
+#  [[params.block]]
+#    id = "contact"
+#    type = "contact"
+#    title = "Get in Touch"
+#    picture = "pic05.jpg"
+#    description = ""
+
+#    [params.block.form]
+#      name = "Name"
+#      email = "Your Email"
+#      message = "Your Message"
+#      buttontext = "send message"
+
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+    # [[params.footer.social]]
+    # title = "Twitter"
+    # icon = "fa-twitter"
+    # link = "#"
+    # 
+    # [[params.footer.social]]
+    # title = "Facebook"
+    # icon = "fa-facebook"
+    # link = "#"
+    # 
+    # [[params.footer.social]]
+    # title = "Instagramm"
+    # icon = "fa-instagram"
+    # link = "#"
+    # 
+     [[params.footer.social]]
+       title = "GitHub"
+       icon = "fa-github"
+       link = "https://github.com/IdahoAgStats"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "mailto:jpiaskowski@uidaho.edu"
+
+    # more footer text (copyright)
+    
+      [[params.footer.copyright.notice]]
+        text = "Website built with [hugo](https://gohugo.io/) and the [HTML5UP](//html5up.net) theme."
+
+#      [[params.footer.copyright.notice]]
+#        text = "© Untitled"
+#        
+#      [[params.footer.copyright.notice]]
+#        text = "Demo Images: [Unsplash](//unsplash.com/)"
