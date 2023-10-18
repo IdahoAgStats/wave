@@ -17,7 +17,7 @@ Julia Piaskowski *[Statistical Programs](https://www.uidaho.edu/cals/idaho-agric
 ### Data Applications Architects
 
 - Jennifer Hinds *[Research Computing & Data Services](https://hpc.uidaho.edu/), University of Idaho*
-- John Brunfeld *[Research Computing & Data Services](https://hpc.uidaho.edu/), University of Idaho*
+- John Brunsfeld *[Research Computing & Data Services](https://hpc.uidaho.edu/), University of Idaho*
 
 ### Data Contributors
 
