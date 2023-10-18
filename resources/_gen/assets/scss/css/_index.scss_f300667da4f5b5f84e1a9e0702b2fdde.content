@@ -33,7 +33,7 @@
   --footer-color: #bbc7cc;
   /* === Lists === */
   /* define list element for unnumbered lists, leave empty for default list element */
-  --ul-li-icon: fa-asterisk; }
+  --ul-li-icon: fa-chevron-right; }
 
 body {
   --color-text: var(--section-light-text-color);
@@ -200,8 +200,8 @@ a.fn-item {
   width: 80%;
   max-width: 700px;
   margin: 0rem auto;
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   height: 70%;
   word-break: break-word;
   hyphens: auto; }
@@ -255,9 +255,9 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2rem;
-  line-height: 1.6em;
+  line-height: 1.4em;
   color: var(--section-light-text-color); }
 
 ::-moz-selection {
@@ -365,19 +365,21 @@ hr {
 
 blockquote {
   -moz-box-sizing: border-box;
+  border-left: solid;
   box-sizing: border-box;
-  margin: 1em 0 1em -2.2em;
+  margin: 1em 0 1em 2.2em;
   padding: 0 0 0 1em;
-  color: var(--section-uni-quote); }
+  color: var(--color-text); }
   blockquote p {
     margin: 0.8em 0; }
   blockquote small {
     display: inline-block;
     margin: 0.8em 0 0.8em 1.5em;
     font-size: 0.9em;
-    color: #ccc; }
-    blockquote small:before {
-      content: "\2014 \00A0"; }
+    color: #ccc;
+    /**     &:before {
+            content: "\2014 \00A0";
+        } **/ }
   blockquote cite {
     font-weight: bold; }
     blockquote cite a {

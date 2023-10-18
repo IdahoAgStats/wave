@@ -1,7 +1,7 @@
 ---
 title: "Funding Sources"
 weight: 7
-header_menu: true
+header_menu: false
 ---
   
 This project is financially supported by:

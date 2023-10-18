@@ -1,7 +1,7 @@
 ---
 title: "Contact"
-weight: 4
-header_menu: true
+weight: 99
+header_menu: false
 ---
 
 {{<icon class="fa fa-paper-plane">}}&nbsp;[Julia Piaskowski](mailto:jpiaskowski@uidaho.edu)
