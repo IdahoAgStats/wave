@@ -10,7 +10,7 @@ header_logo: "images/barplot-icon.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "WAVE"
-header_subheadline: "Western Agriculture Variety Explorer"
+header_subheadline: "Western Agricultural Variety Explorer"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
