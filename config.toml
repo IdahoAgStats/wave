@@ -1,6 +1,7 @@
 # Site settings
 
-baseurl = "https://idahoagstats.github.io/wave/"
+baseurl = "/"
+#"https://idahoagstats.github.io/wave/"
 languageCode = "en-us"
 title = "WAVE"
 theme = "hugo-highlights-theme"
