@@ -60,7 +60,7 @@ googleAnalytics = ""
     id = "outputs"
     type = "list"
     title = "Our Goals"
-    description = "We aim to provide an online database open to all members of the public to explore current and historical variety testing data sets with the ability to filter, query, and download data. Analytical summaris of trials will be in industry-focused apps for each crop. View our current demo for wheat (in beta stage) [here](https://jpiaskowski.shinyapps.io/idaho_vartest_shiny_app/)"
+    description = "We aim to provide an online database open to all members of the public to explore current and historical variety testing data sets with the ability to filter, query, and download data. Analytical summaris of trials will be in industry-focused apps for each crop. View our wheat database [here](https://vartestdb.nkn.uidaho.edu/)"
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic02.jpg"
@@ -75,24 +75,24 @@ googleAnalytics = ""
 #      icon = "fa-list"
 #      title = "historic data"
 
-#    [[params.block.item]]
-#      icontype = "fas"
-#      icon = "fa-database"
-#      title = "example database"
-#      link = ""
-
     [[params.block.item]]
       icontype = "fas"
-      icon = "fa-chart-bar"
-      title = "wheat demo app"
-      link = "https://jpiaskowski.shinyapps.io/idaho_vartest_shiny_app/"
+      icon = "fa-database"
+      title = "wheat database"
+      link = "https://vartestdb.nkn.uidaho.edu/"
+
+#    [[params.block.item]]
+#      icontype = "fas"
+#      icon = "fa-chart-bar"
+#      title = "wheat demo app"
+#      link = "https://jpiaskowski.shinyapps.io/idaho_vartest_shiny_app/"
 
   # participants section
   [[params.block]]
     id = "people"
     type = "list"
     title = "Project Participants"
-    description = "**Data contributers:**  [Jim Davis](https://www.uidaho.edu/cals/plant-sciences/our-people/jim-davis), [Juliet M. Marshall](https://www.uidaho.edu/cals/plant-sciences/our-people/juliet-marshall), [Kurtis Schroeder](https://www.uidaho.edu/cals/plant-sciences/our-people/kurtis-schroeder), [Doug Finkelnburg](https://www.uidaho.edu/extension/county/nez-perce/agriculture) and [Olga Walsh](https://www.uidaho.edu/cals/plant-sciences/our-people/olga-walsh) of the University of Idaho; [Steve Jones](https://breadlab.wsu.edu/),[Clark Neely](https://css.wsu.edu/people/faculty/clark-neely/), and [Steve Van Vleet](https://extension.wsu.edu/whitman/agriculture/) of Washington State University; [Ryan Graebner](https://cropandsoil.oregonstate.edu/users/ryan-graebner) of Oregon State University; Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  [Jennifer Hinds](https://hpc.uidaho.edu/general/Staff/) \n\n **Project Director:**  [Julia Piaskowski](https://www.uidaho.edu/cals/statistical-programs/people/julia-piaskowski)"
+    description = "**Data contributers:**  [Jim Davis](https://www.uidaho.edu/cals/plant-sciences/our-people/jim-davis), [Juliet M. Marshall](https://www.uidaho.edu/cals/plant-sciences/our-people/juliet-marshall), [Kurtis Schroeder](https://www.uidaho.edu/cals/plant-sciences/our-people/kurtis-schroeder), [Doug Finkelnburg](https://www.uidaho.edu/extension/county/nez-perce/agriculture) and [Olga Walsh](https://www.uidaho.edu/cals/plant-sciences/our-people/olga-walsh) of the University of Idaho; [Steve Jones](https://breadlab.wsu.edu/), [Clark Neely](https://css.wsu.edu/people/faculty/clark-neely/), and [Steve Van Vleet](https://extension.wsu.edu/whitman/agriculture/) of Washington State University; [Ryan Graebner](https://cropandsoil.oregonstate.edu/users/ryan-graebner) of Oregon State University; Kim Garland Campbell, Xiaming Chen and Camille Steber of the USDA-ARS. \n\n **Data curators:**  Jacqueline Tay and Emily Galvin \n\n **Web applications architect:**  [Jennifer Hinds](https://hpc.uidaho.edu/general/Staff/) \n\n **Project Director:**  [Julia Piaskowski](https://www.uidaho.edu/cals/statistical-programs/people/julia-piaskowski)"
     # the picture is stored at static/images/
     picture = "pic03.jpg"
     
