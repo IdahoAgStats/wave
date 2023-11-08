@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>westernagdata.org/</loc>
+    <loc>https://westernagdata.org/</loc>
   </url><url>
-    <loc>westernagdata.org/services/</loc>
+    <loc>https://westernagdata.org/services/</loc>
   </url><url>
-    <loc>westernagdata.org/legal/</loc>
+    <loc>https://westernagdata.org/legal/</loc>
   </url>
 </urlset>
