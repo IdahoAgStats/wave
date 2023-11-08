@@ -12,5 +12,4 @@ All data associated with this project are owned by the respective institutions t
 
 All research utilizing data downloaded from these databases should be cited as follows:
 
-> Piaskowski JL, Galvin E, Tay J, Neely C, Graebner R, Schroeder K, Finkelnburg D, Van Vleet S, Davis J, Khadka K, Jones S, Walsh O, and J Marshall, 2023. *Tools, software and computing infrastructure for a variety testing datahub.* Poster, Annual Meeting of the ASA-CSSA-SSSA, St Louis, Missouri, Oct 28 - Nov 1, 2023.
-
+> Piaskowski, J. L., Galvin, E., Marshall, J., Schroeder, K. L., Walsh, O. S., Finkelnburg, D., Davis, J. B., Graebner, R., Neely, C. B., & Jones, S. S. (2023) *[Tools and Computing Infrastructure for a Wheat Variety Testing Datahub](https://scisoc.confex.com/scisoc/2023am/meetingapp.cgi/Paper/149882)* [Abstract]. ASA, CSSA, SSSA International Annual Meeting, St. Louis, MO. 
