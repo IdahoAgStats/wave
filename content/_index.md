@@ -1,6 +1,7 @@
 ---
 # Striking header background image, Ideal images are homogenous around the centre and contrasting to the text. Non-ideal images can use `title_guard`
-header_image: "images/south_idaho_trials_bw_crop.jpg"
+header_image: "images/south_idaho_trials_bw.jpg"
+
 #
 # When set true, uses video from custom_header_video.html partial, instead of header_image
 header_use_video: false
