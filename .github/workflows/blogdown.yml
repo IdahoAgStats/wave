@@ -43,3 +43,4 @@ jobs:
           # GITHUB_TOKEN secret is set up automatically
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./public
+          cname: westernagdata.org
